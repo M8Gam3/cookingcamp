@@ -11610,4 +11610,51 @@ body {
   margin: 3vh 0;
 }
 
+@media screen and (max-width: 768px) {
+  /* Styles à appliquer aux petits écrans */
+  body {
+    font-size: 14px;
+  }
+  #Head {
+    height: 60vh;
+    text-align: center;
+  }
+  #Head .headText {
+    height: 60vh;
+  }
+  #Head .heroSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  #Head .heroSection h1, #Head .heroSection .h1 {
+    font-size: 25px;
+  }
+  #Head .heroSection p {
+    font-size: 15px;
+  }
+  #Head .heroSection__item {
+    margin: 2vh 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #Head {
+    height: 75vh;
+  }
+  #Head .headText {
+    height: 75vh;
+  }
+  #Head .heroSection h1, #Head .heroSection .h1 {
+    font-size: 40px;
+  }
+  #Head .heroSection p {
+    font-size: 15px;
+  }
+  #Head .heroSection__item {
+    margin: 2vh 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
