@@ -11875,13 +11875,6 @@ body {
   align-content: center;
   padding: 2vh 5vw;
 }
-#Navbar .navigation .navLeft {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-}
 #Navbar .navigation .navLeft__item {
   margin: 0 0.5vw;
 }

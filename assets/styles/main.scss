@@ -29,7 +29,7 @@ body{
         padding: 2vh 5vw;
     
         .navLeft{
-        @include dflex();
+        // @include dflex();
             &__item{
                 margin: 0 0.5vw;
             }
