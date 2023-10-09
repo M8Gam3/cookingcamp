@@ -1,34 +1,35 @@
 @import "../bootstrap/bootstrap-scss/functions";
 @import "../bootstrap/bootstrap-scss/variables";
 // @import "../bootstrap/bootstrap-scss/buttons";
+//border button
+$btn-border-radius:0;
 
+//colors
 $light:#fff;
 $secondary : #F9B860;
 $primary : #0B181E;
 $dark :#0000;
 $bg-secondary: $secondary;
-
 $theme-colors: (
     "primary": $primary,
     "secondary": $secondary,
     "danger": $red,
     "dark": $dark,
     "light": $light
-
-
-
 );
+
+
 
 @import "../bootstrap/bootstrap-scss/bootstrap.scss";
 
-%CallToActionBtn{
-    border: none;
-    // background-color:$secondary;
-    // color:$dark;
-    padding: 1vh 1vw;
-    // border-radius: 5px;
-    margin: 1vh 0;  
-}
+// %CallToActionBtn{
+//     border: none;
+//     // background-color:$secondary;
+//     // color:$dark;
+//     padding: 1vh 1vw;
+//     // border-radius: 5px;
+//     margin: 1vh 0;  
+// }
 
 @mixin dflex($direction:row, $justify:space-between , $align :center) {
     display: flex;
@@ -56,6 +57,7 @@ body{
         color: white;
         h1{
             font-size: 50px;
+            letter-spacing: 2px;
         }
         p{
             font-size: 20px;
@@ -63,8 +65,8 @@ body{
         &__item{
             margin: 3vh 0;
         }
-        button{
-            @extend %CallToActionBtn;
-        }
+        // button{
+        //     transpa;
+        // }
     }
 }
