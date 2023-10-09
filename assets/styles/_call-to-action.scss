@@ -1,0 +1,22 @@
+.action {
+    height: 60vh;
+    width: 100%;
+    background-image: url('../img/call-to-action-background.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+            padding: 0 0 1rem 0;
+        }
+        button {
+            
+        }
+    }
+}

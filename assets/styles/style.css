@@ -11866,49 +11866,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.reinsurance {
+.action {
+  height: 60vh;
   width: 100%;
-  height: auto;
-  background-image: url("../img/reinsurance-background.png");
+  background-image: url("../img/call-to-action-background.png");
   background-size: cover;
-  color: #ffffff;
-  justify-content: space-evenly;
-  padding: 10rem 1rem 10rem 1rem;
-}
-.reinsurance__top {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.reinsurance__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 0 0 3rem 0;
-  height: auto;
-  flex-wrap: wrap;
-}
-.reinsurance__container-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.reinsurance__container-item img {
-  padding: 0 0 1rem 0;
-}
-.reinsurance .reinsurance__signup {
-  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.reinsurance .reinsurance__signup-btn {
-  padding: 0.5rem 0 0.5rem 0;
-  color: #F9B860;
-  text-align: center;
-  padding: 0.3rem 1rem 0.3rem 1rem;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #F9B860;
+.action__container {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.action__container h2, .action__container .h2 {
+  padding: 0 0 1rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */
