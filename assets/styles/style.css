@@ -11890,9 +11890,15 @@ textarea.form-control-lg {
   padding: 0.5rem 0 0.5rem 0;
   color: #F9B860;
   text-align: center;
+  transition: 0.6s;
   padding: 0.3rem 1rem 0.3rem 1rem;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #F9B860;
+}
+.about .about__element button:hover {
+  transition: 0.6s;
+  background-color: #F9B860;
+  color: #0B181E;
 }
 .about .about__img {
   width: 50%;
