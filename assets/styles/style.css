@@ -11872,7 +11872,7 @@ textarea.form-control-lg {
   background-image: url("../img/reinsurance-background.png");
   background-size: cover;
   color: #ffffff;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .reinsurance__top {
   width: 100%;
@@ -11891,10 +11891,21 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: center;
 }
-.reinsurance__sign-up {
+.reinsurance__container-item img {
+  padding: 0 0 1rem 0;
+}
+.reinsurance .reinsurance__signup {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.reinsurance .reinsurance__signup-btn {
+  padding: 0.5rem 0 0.5rem 0;
+  color: #F9B860;
+  text-align: center;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #F9B860;
 }
 
 /*# sourceMappingURL=style.css.map */
