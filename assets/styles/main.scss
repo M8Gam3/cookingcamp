@@ -1,0 +1,70 @@
+@import "../bootstrap/bootstrap-scss/functions";
+@import "../bootstrap/bootstrap-scss/variables";
+// @import "../bootstrap/bootstrap-scss/buttons";
+
+$light:#fff;
+$secondary : #F9B860;
+$primary : #0B181E;
+$dark :#0000;
+$bg-secondary: $secondary;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "danger": $red,
+    "dark": $dark,
+    "light": $light
+
+
+
+);
+
+@import "../bootstrap/bootstrap-scss/bootstrap.scss";
+
+%CallToActionBtn{
+    border: none;
+    // background-color:$secondary;
+    // color:$dark;
+    padding: 1vh 1vw;
+    // border-radius: 5px;
+    margin: 1vh 0;  
+}
+
+@mixin dflex($direction:row, $justify:space-between , $align :center) {
+    display: flex;
+    flex-direction : $direction;
+    justify-content:$justify;
+    align-items:$align ;
+    align-content: center;
+    
+}
+body{
+    background-color: black;
+}
+
+#Head{
+    background: url('./images/hero-wrapper.png') center ;
+    background-size: cover;
+    height: 100vh;
+    .headText{
+        @include dflex($justify:center);
+        margin: auto 0;
+        height: 100vh;
+    }
+    .heroSection{
+        @include dflex(column,$justify:space-between , $align :left);
+        color: white;
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+        &__item{
+            margin: 3vh 0;
+        }
+        button{
+            @extend %CallToActionBtn;
+        }
+    }
+}
