@@ -11912,8 +11912,8 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 .form-control:focus {
-  color: rgb(203, 63, 63);
-  background-color: var(--bs-body-bg);
+  color: rgb(255, 255, 255);
+  background-color: transparent;
   border-color: #86b7fe;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
@@ -12694,8 +12694,8 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 .form-control:focus {
-  color: rgb(203, 63, 63);
-  background-color: var(--bs-body-bg);
+  color: rgb(255, 255, 255);
+  background-color: transparent;
   border-color: #86b7fe;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);

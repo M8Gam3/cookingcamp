@@ -1,14 +1,12 @@
 @import "../bootstrap/bootstrap-scss/bootstrap.scss";
 
 $input-border-radius:0;
-// $input-border-color:red;
 $input-placeholder-color:white;
 $input-border-width:2px;
 $input-line-height:5vh;
 $input-bg : transparent;
-// $input-btn-focus-box-shadow:red;
-// $input-focus-box-shadow:red;
-$input-focus-color : rgb(203, 63, 63);
+$input-focus-bg:transparent;
+$input-focus-color : rgb(255, 255, 255);
 @import "../bootstrap/bootstrap-scss/forms";
 @import "../bootstrap/bootstrap-scss/forms/form-control";
 @import "../bootstrap/bootstrap-scss/forms/floating-labels";
