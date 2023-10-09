@@ -11867,10 +11867,12 @@ textarea.form-control-lg {
   }
 }
 .action {
-  height: 60vh;
+  height: 75vh;
   width: 100%;
   background-image: url("../img/call-to-action-background.png");
+  background-position: cover;
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11882,7 +11884,15 @@ textarea.form-control-lg {
   align-items: center;
 }
 .action__container h2, .action__container .h2 {
-  padding: 0 0 1rem 0;
+  padding: 0 0 2rem 0;
+}
+.action__container button {
+  padding: 0.5rem 0 0.5rem 0;
+  color: #000000;
+  text-align: center;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  background-color: #F9B860;
+  border: 1px solid #F9B860;
 }
 
 /*# sourceMappingURL=style.css.map */
