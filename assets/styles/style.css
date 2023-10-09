@@ -11868,11 +11868,12 @@ textarea.form-control-lg {
 }
 .reinsurance {
   width: 100%;
-  height: 90vh;
+  height: auto;
   background-image: url("../img/reinsurance-background.png");
   background-size: cover;
   color: #ffffff;
   justify-content: space-evenly;
+  padding: 10rem 1rem 10rem 1rem;
 }
 .reinsurance__top {
   width: 100%;
@@ -11885,6 +11886,8 @@ textarea.form-control-lg {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 0 0 3rem 0;
+  height: auto;
+  flex-wrap: wrap;
 }
 .reinsurance__container-item {
   display: flex;
