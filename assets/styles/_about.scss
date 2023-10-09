@@ -1,0 +1,15 @@
+.about{
+    display: flex;
+    height: 40vh;
+    .about__txt{
+        width: 50%;
+        display: flex;
+        background-color: #0B181E;
+    }
+    .about__img{
+        width: 50%;
+        background-image: url("../img/about_section_img.webp.png");
+        background-size: cover;
+    }
+}
+

@@ -1,3 +1,5 @@
-
+@import url("./_reset.scss");
+@import url("/assets/bootstrap/scss/main.scss");
+@import url("./_about.scss");
 
 /*# sourceMappingURL=style.css.map */
