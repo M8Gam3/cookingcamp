@@ -11871,6 +11871,7 @@ textarea.form-control-lg {
   height: auto;
   background-image: url("../img/reinsurance-background.png");
   background-size: cover;
+  background-position: center;
   color: #ffffff;
   justify-content: space-evenly;
   padding: 10rem 1rem 10rem 1rem;
