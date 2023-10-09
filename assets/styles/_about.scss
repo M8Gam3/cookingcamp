@@ -3,7 +3,7 @@
     color: #ffffff;
     height: 70vh;
     .about__element{
-        padding: 3rem 8rem 3rem 8rem;
+        padding: 10% 6% 10% 6%;
         margin: 0;
         width: 50%;
         background-color: #0B181E;
@@ -26,10 +26,30 @@
         }
     }
     .about__img{
-        margin: 0;
+        // margin: 0;
+        // width: 50%;
+        // background-image: url("../img/about_section_img.webp.png");
+        // background-size: cover;
         width: 50%;
-        background-image: url("../img/about_section_img.webp.png");
-        background-size: cover;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            
+        }
     }
 }
 
+@media (max-width: 767px) {
+    .about {
+        img {
+            display: none;
+        }
+        .about__img {
+            display: none;
+        }
+        .about__element {
+            width: 100%;
+        }
+    }
+}
