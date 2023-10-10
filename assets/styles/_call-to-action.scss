@@ -5,15 +5,11 @@
     background-position: cover;
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include dflex(row,center,center);
 
     &__container {
-        color: map-get($map: $theme-colors, $key: 'light');;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        color: map-get($map: $theme-colors, $key: 'light');
+        @include dflex(column,center,center);
         h2 {
             padding: 0 0 2rem 0;
         }
