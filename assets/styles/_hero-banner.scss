@@ -1,19 +1,5 @@
 $btn-border-radius:0;
 
-//colors
-$light:#fff;
-$secondary : #F9B860;
-$primary : #0B181E;
-$dark :#0000;
-$bg-secondary: $secondary;
-$theme-colors: (
-    "primary": $primary,
-    "secondary": $secondary,
-    "danger": $red,
-    "dark": $dark,
-    "light": $light
-);
-
 //Media queries
 $petit-ecran: 768px;
 $ecran-moyen-min: 769px;
