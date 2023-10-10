@@ -1,16 +1,16 @@
 @import "../bootstrap/bootstrap-scss/bootstrap.scss";
+$nav-link-font-weight : light;
+$navbar-light-color: white;
+$navbar-light-hover-color: blue;
+$navbar-light-brand-color: white;
+$navbar-light-brand-hover-color: white;
+$navbar-light-toggler-border-color:white;
 
 
-//  MIXING
+@import "../bootstrap/bootstrap-scss/variables";
+@import "../bootstrap/bootstrap-scss/nav";
+@import "../bootstrap/bootstrap-scss/navbar";
 
-@mixin dflex($direction:row, $justify:space-between , $align :center) {
-    display: flex;
-    flex-direction : $direction;
-    justify-content:$justify;
-    align-items:$align ;
-    align-content: center;
-    
-}
 
 body{
     margin: 0;
@@ -18,41 +18,6 @@ body{
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
 }
-/* header */
-
-#Navbar{
-    margin: 0;
-    background-color: #0B181E ;
-
-    .navigation{
-        @include dflex($direction:row, $justify:space-between , $align :center);
-        padding: 2vh 5vw;
-    
-        .navLeft{
-        // @include dflex();
-            &__item{
-                margin: 0 0.5vw;
-            }
-           h4{
-            color: #fff;
-           }
-        }   
-    
-        }
-        .navRight{
-        @include dflex();
-    
-        &__item{
-            text-decoration: none;
-            margin: 0 1vw;
-            color: #fff;
-            // &:hover{}
-        }
-        .headcontactElemments{
-        @include dflex();
-            &__item{
-                margin: 0 0.5vw;
-            }
-        }
-        }
-    }
+.Navbar{
+    background-color:#4d597d;
+}
