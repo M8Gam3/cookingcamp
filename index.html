@@ -2,10 +2,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <script defer src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg navbar-light d-flex ">
+            <div class="container">
+                <a class="navbar-brand d-flex flex-row align-items-center navbar__logo" href="#">
+                    <img src="./assets/styles/img/logo cookingCamp.svg" alt="logo COOKINGCAMP" class="navbar-brand-img">
+                    <p>cooking' Campp</p>
+                </a>
+            <div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Infos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dates</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="headcontactElemments d-flex justify-content-left align-items-center navbar__icons">
+                            <a href="#" class="nav-link ml-2 mr-2 navbar__icon-container">
+                                <iconify-icon class="headcontactElemments__item navbar__icon" icon="uil:facebook-f"></iconify-icon>
+                            </a>
+                            <a href="#" class="nav-link ml-2 mr-2 navbar__icon-container">
+                                <iconify-icon  class="headcontactElemments__item navbar__icon" icon="mdi:instagram"></iconify-icon>
+                            </a>
+                            <a href="#" class="nav-link ml-2 mr-2 navbar__icon-container">
+                                <iconify-icon  class="headcontactElemments__item navbar__icon" icon="ant-design:youtube-filled"></iconify-icon>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>    
+        
+        <section id="Head">
+            <div class="headText ">
+                <div class="heroSection ">
+                    <h1 class="heroSection__item">Culinary Sleepaway <br> Camp for Grown-Ups! </h1>
+                    <p class="heroSection__item">Summer 2035 | Lassen State Park</p>
+                    <div class="btn-action heroSection__item">
+                        <button class="btn btn-secondary"> SignMe Up</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     
+    </header>
+    <main>
+    
+        <section id="about" class="about d-flex col">
+            <div class="about__element d-flex flex-column">
+                <h2>History of Cookin’ Camp</h2>
+                <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                <div class="d-flex justify-content-center">
+                    <button>Sign Me Up</button>
+                </div>
+            </div>
+            <div class="about__img">
+                <img src="./assets/img/about_section_img.webp.png" alt="">
+            </div>
+        </section>
+    
+        <section id="reinsurance" class="reinsurance d-flex flex-column">
+            <div class="reinsurance__top">
+                <h2>What to Expect</h2>
+                <p>I'm a title. Click here to add your own text and edit me.</p>
+            </div>
+            <div class="reinsurance__container">
+                <div class="reinsurance__container-item">
+                    <img src="./assets/img/tasse-de-cafe 1.png" alt="tasse de cafe">
+                    <p>cooking classes</p>
+                </div>
+                <div class="reinsurance__container-item">
+                    <img src="./assets/img/botte-de-neige 1.png" alt="botte de neige">
+                    <p>Hiking</p>
+                </div>
+                <div class="reinsurance__container-item">
+                    <img src="./assets/img/tente-de-camping 1.png" alt="tente de camping">
+                    <p>Lodging</p>
+                </div>
+                <div class="reinsurance__container-item">
+                    <img src="./assets/img/feu-de-camps 1.png" alt="feu de camps">
+                    <p>Campfires</p>
+                </div>
+            </div>
+            <div class="reinsurance__signup">
+                <button class="reinsurance__signup-btn">Learn More</button>
+            </div>
+        </section>
+
+        <section class="container-fluid gallery">
+            <h2 class="gallery__h2 text-center">Camp Life Gallery</h2>
+            <div class="gallery__elements row">
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img" src="./assets/img/Rectangle 2.png" alt="">
+                </div>
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img" src="./assets/img/Rectangle 3.png" alt="">
+                </div>
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img" src="./assets/img/Rectangle 4.png" alt="">
+                </div>
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img" src="./assets/img/Rectangle 5.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img" src="./assets/img/Rectangle 6.png" alt="">
+                </div>
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img" src="./assets/img/Rectangle 7.png" alt="">
+                </div>
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img" src="./assets/img/Rectangle 8.png" alt="">
+                </div>
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img" src="./assets/img/Rectangle 9.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img" src="./assets/img/Rectangle 10.png" alt="">
+                </div>
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img"src="./assets/img/Rectangle 11.png" alt="">
+                </div>
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img" src="./assets/img/Rectangle 12.png" alt="">
+                </div>
+                <div class="col-md-3 p-1 col-sm-6">
+                    <img class="gallery__img" src="./assets/img/Rectangle 13.png" alt="">
+                </div>
+            </div>
+            <div class="gallery__elements">      
+            </div>
+        </section>
+        
+        <section class="sec-carousel">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-container">
+                            <img src="./assets/img/clip-path-group.png" alt="">
+                            <p>I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.</p>
+                            <h3>Jenny Phung</h3>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-container">
+                            <img src="./assets/img/clip-path-group.png" alt="">
+                            <p>Nous partageons des valeurs communes, une passion pour nos métiers respectifs et la même finalité : garantir à tous nos publics les conditions optimales pour réussir leur projet personnel, professionnel.</p>
+                            <h3>LA MANU, Amiens</h3>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-container">
+                            <img src="./assets/img/clip-path-group.png" alt="">
+                            <p>VENEZ-VOUS FORMER AUX MÉTIERS DU NUMÉRIQUE, DANS LA « PETITE VENISE DU NORD »</p>
+                            <h3>Le campus d'Amiens</h3>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+        <section id="action" class="action">
+            <div class="action__container">
+                <h2>Ready for Camp?</h2>
+                <button>Sign Me Up</button>
+            </div>
+        </section>
+        
+        <section id="formulaire" class="container">
+            <div class="contentForm py-4">
+                <div class="texteContact w-50  text-center">
+                    <h2 class=" texteContact__item"> Contact</h2>
+                    <p class=" texteContact__item"> Questions? Call us at 123-456-7890 or leave us a message:</p>
+                    <p class=" texteContact__item">500 Terry Francine Street San Francisco, CA 94158</p>
+                    <!-- my-2 mb-2 -->
+                </div>
+                <div class="contactForm w-50 ">
+                    <form action="" method="post" class="contact_form">
+                        <input class="form-control my-3 mb-3 contact_form__input" type="text" placeholder="Name" required  />
+                        <input class="form-control my-3 mb-3 contact_form__input" type="email" placeholder="Email" required />
+                        <input class="form-control my-3 mb-3 contact_form__input" type="text" placeholder="Subject" required />
+                        <div class="form-floating">
+                            <textarea class="form-control my-3 mb-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Comments</label>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button  class="btn btn-light" type="submit"> Submit </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+
+        <div class="d-flex justify-content-center flex-column align-items-center h-100">
+            <div class="footer__icons">
+                <img src="./assets/img/facebook 2.png" alt="">
+                <img src="./assets/img/youtube 2.png" alt="">
+                <img src="./assets/img/instagram 2.png" alt="">
+            </div>
+            <div class="footer__text">
+                <p class="text-white pt-5">© 2035 Cookin’ Camp.</p>
+            </div>
+        </div>
+    
+    </footer>
 </body>
 </html>
