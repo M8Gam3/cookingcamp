@@ -1,0 +1,22 @@
+$nav-link-font-weight : light;
+$navbar-light-color: white;
+$navbar-light-hover-color: blue;
+$navbar-light-brand-color: white;
+$navbar-light-brand-hover-color: white;
+$navbar-light-toggler-border-color:white;
+
+
+@import "../bootstrap/bootstrap-scss/variables";
+@import "../bootstrap/bootstrap-scss/nav";
+@import "../bootstrap/bootstrap-scss/navbar";
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+.Navbar{
+    background-color:#4d597d;
+}
