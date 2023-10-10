@@ -1,5 +1,8 @@
+@import './bases.scss';
 @import '../bootstrap/scss/main.scss';
-@import './base.scss';
+@import './_hero-banner.scss';
+@import './_about.scss';
+@import './_reinsurance.scss';
 
 .gallery{
     // margin: 0;
