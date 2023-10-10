@@ -1,0 +1,33 @@
+$input-border-radius:0;
+$input-placeholder-color:white;
+$input-border-width:2px;
+$input-line-height:5vh;
+$input-bg : transparent;
+$input-focus-bg:transparent;
+$input-focus-color : rgb(255, 255, 255);
+@import "../bootstrap/bootstrap-scss/forms";
+@import "../bootstrap/bootstrap-scss/forms/form-control";
+@import "../bootstrap/bootstrap-scss/forms/floating-labels";
+
+// body{
+//     background-color: black;
+// }
+.contentForm{
+    color: white;
+    background-color: #0B181E;
+
+    .texteContact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 1vh auto 10vh auto;
+
+        &__item{
+            margin: 1.5vh 0;
+        }
+    }
+    .contactForm{
+        margin: 4vh auto;
+
+    }
+}
