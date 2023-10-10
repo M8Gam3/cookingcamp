@@ -5,9 +5,9 @@ $input-line-height:5vh;
 $input-bg : transparent;
 $input-focus-bg:transparent;
 $input-focus-color : rgb(255, 255, 255);
-@import "../bootstrap/bootstrap-scss/forms";
-@import "../bootstrap/bootstrap-scss/forms/form-control";
-@import "../bootstrap/bootstrap-scss/forms/floating-labels";
+@import "../bootstrap/scss/forms";
+@import "../bootstrap/scss/forms/form-control";
+@import "../bootstrap/scss/forms/floating-labels";
 
 // body{
 //     background-color: black;
