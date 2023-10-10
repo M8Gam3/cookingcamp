@@ -1,12 +1,14 @@
 //colors
-$light:#fff;
+$light:#ffffff;
 $secondary : #F9B860;
 $primary : #0B181E;
 $dark :#000000;
+$transparent :#00000000;
 $bg-secondary: $secondary;
 $theme-colors: (
     "primary": $primary,
     "secondary": $secondary,
     "dark": $dark,
-    "light": $light
+    "light": $light,
+    "transparent": $transparent,
 );
