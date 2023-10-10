@@ -1,1 +1,11 @@
-@import "../bootstrap/scss/main.scss";
+@import './bases.scss';
+@import '../bootstrap/scss/main.scss';
+@import './minxins.scss';
+@import './_hero-banner.scss';
+@import './_about.scss';
+@import './_reinsurance.scss';
+@import './_galerie.scss';
+@import './_carousel.scss';
+@import './_call-to-action.scss';
+@import './_contact.scss';
+
