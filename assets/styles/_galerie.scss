@@ -1,8 +1,7 @@
 .gallery{
-    // margin: 0;
-    // padding: 0;
     width: 100%;
     &__h2{
+        color: map-get($map: $theme-colors, $key: 'light');
         font-size: 5vh;
         width: 100%;
         padding: 2vw;

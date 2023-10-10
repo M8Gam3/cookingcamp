@@ -4,50 +4,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="./assets/styles/style.css">
     <script defer src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
-    <title>Document</title>
+    <title>Cooking'Camp</title>
+    <link rel="icon" href="./assets/img/logo_cookingCamp.svg" type="image/icon type">
 </head>
 <body>
     <header>
         <!--Navbar-->
         <nav class="navbar navbar-dark navbar-expand-lg navbar-light d-flex ">
             <div class="container">
-                <a class="navbar-brand d-flex flex-row align-items-center navbar__logo" href="#">
-                    <img src="./assets/styles/img/logo cookingCamp.svg" alt="logo COOKINGCAMP" class="navbar-brand-img">
-                    <p>cooking' Campp</p>
+                <a class="navbar-brand " href="#">
+                    <img src="./assets/img/logo_cookingCamp.svg" alt="logo COOKINGCAMP" class="navbar-brand-img">
+                    <label for="">Cooking' Camp</label>
                 </a>
-            <div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Infos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Dates</a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="headcontactElemments d-flex justify-content-left align-items-center navbar__icons">
-                            <a href="#" class="nav-link ml-2 mr-2 navbar__icon-container">
-                                <iconify-icon class="headcontactElemments__item navbar__icon" icon="uil:facebook-f"></iconify-icon>
-                            </a>
-                            <a href="#" class="nav-link ml-2 mr-2 navbar__icon-container">
-                                <iconify-icon  class="headcontactElemments__item navbar__icon" icon="mdi:instagram"></iconify-icon>
-                            </a>
-                            <a href="#" class="nav-link ml-2 mr-2 navbar__icon-container">
-                                <iconify-icon  class="headcontactElemments__item navbar__icon" icon="ant-design:youtube-filled"></iconify-icon>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Infos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Dates</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="headcontactElemments d-flex justify-content-left align-items-center">
+                                <a href="#" class="nav-link ml-2 mr-2">
+                                    <iconify-icon class="headcontactElemments__item" icon="uil:facebook-f" style="color: white;" width="25" height="25"></iconify-icon>
+                                </a>
+                                <a href="#" class="nav-link ml-2 mr-2">
+                                    <iconify-icon  class="headcontactElemments__item" icon="mdi:instagram" style="color: white;" width="25" height="25"></iconify-icon>
+
+                                </a>
+                                <a href="#" class="nav-link ml-2 mr-2">
+                                    <iconify-icon  class="headcontactElemments__item" icon="ant-design:youtube-filled" style="color: white;" width="25" height="25"></iconify-icon>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>    
         <!--Header-->
@@ -202,7 +209,7 @@
         <section id="action" class="action">
             <div class="action__container">
                 <h2>Ready for Camp?</h2>
-                <button>Sign Me Up</button>
+                <button class="btn btn-secondary">Sign Me Up</button>
             </div>
         </section>
         
@@ -212,7 +219,6 @@
                     <h2 class=" texteContact__item"> Contact</h2>
                     <p class=" texteContact__item"> Questions? Call us at 123-456-7890 or leave us a message:</p>
                     <p class=" texteContact__item">500 Terry Francine Street San Francisco, CA 94158</p>
-                    <!-- my-2 mb-2 -->
                 </div>
                 <div class="contactForm w-50 ">
                     <form action="" method="post" class="contact_form">
@@ -221,7 +227,7 @@
                         <input class="form-control my-3 mb-3 contact_form__input" type="text" placeholder="Subject" required />
                         <div class="form-floating">
                             <textarea class="form-control my-3 mb-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">Comments</label>
+                            <label for="floatingTextarea2">Type your message here</label>
                         </div>
                         <div class="d-flex justify-content-end">
                             <button  class="btn btn-light" type="submit"> Submit </button>

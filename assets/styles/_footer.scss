@@ -1,5 +1,5 @@
 footer{
-    background-color: #000000;
+    background-color: map-get($map: $theme-colors, $key: 'dark');;
     height: 30vh;
 }
 footer img{

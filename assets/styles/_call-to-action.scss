@@ -5,25 +5,21 @@
     background-position: cover;
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include dflex(row,center,center);
 
     &__container {
-        color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        color: map-get($map: $theme-colors, $key: 'light');
+        @include dflex(column,center,center);
         h2 {
             padding: 0 0 2rem 0;
         }
         button {
             padding: 0.5rem 0 0.5rem 0;
-            color: #000000;
+            color: map-get($map: $theme-colors, $key: 'dark');;
             text-align: center;
             padding: 0.3rem 1rem 0.3rem 1rem;
-            background-color: #F9B860;
-            border: 1px solid #F9B860;
+            background-color: map-get($map: $theme-colors, $key: 'secondary');;
+            border: 1px solid map-get($map: $theme-colors, $key: 'secondary');;
         }
     }
 }
