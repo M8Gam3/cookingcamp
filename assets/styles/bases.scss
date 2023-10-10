@@ -16,3 +16,11 @@ body{
     background-color: #020203;
     color: white;
 }
+
+.font-primary {
+    font-family: map-get($map: $font_family, $key: 'font-primary') !important;
+}
+
+.font-secondary {
+    font-family: map-get($map: $font_family, $key: 'font-secondary') !important;
+}

@@ -3,6 +3,7 @@
     width: 100%;
     height: auto;
     background-image: url('../img/reinsurance-background.png');
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     color: map-get($map: $theme-colors, $key: 'light');
