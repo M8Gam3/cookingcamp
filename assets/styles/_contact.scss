@@ -1,10 +1,10 @@
 $input-border-radius:0;
-$input-placeholder-color:white;
+$input-placeholder-color: map-get($map: $theme-colors, $key: 'light');;
 $input-border-width:2px;
 $input-line-height:5vh;
 $input-bg : transparent;
 $input-focus-bg:transparent;
-$input-focus-color : rgb(255, 255, 255);
+$input-focus-color : map-get($map: $theme-colors, $key: 'light');;
 @import "../bootstrap/scss/forms";
 @import "../bootstrap/scss/forms/form-control";
 @import "../bootstrap/scss/forms/floating-labels";
@@ -14,7 +14,7 @@ $input-focus-color : rgb(255, 255, 255);
 // }
 .contentForm{
     color: white;
-    background-color: #0B181E;
+    background-color: map-get($map: $theme-colors, $key: 'primary');;
 
     .texteContact{
         display: flex;
