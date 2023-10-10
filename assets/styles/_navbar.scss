@@ -1,14 +1,14 @@
-$nav-link-font-weight : light;
-$navbar-light-color: white;
-$navbar-light-hover-color: blue;
-$navbar-light-brand-color: white;
-$navbar-light-brand-hover-color: white;
-$navbar-light-toggler-border-color:white;
+$nav-link-font-weight : dark;
+$navbar-dark-color: white;
+$navbar-dark-hover-color: blue;
+$navbar-dark-brand-color: white;
+$navbar-dark-brand-hover-color: white;
+$navbar-dark-toggler-border-color:white;
 
 
-@import "../bootstrap/bootstrap-scss/variables";
-@import "../bootstrap/bootstrap-scss/nav";
-@import "../bootstrap/bootstrap-scss/navbar";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/nav";
+@import "../bootstrap/scss/navbar";
 
 
 body{
